@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  /* background-image: url(../assets/images/sleep-cat.jpeg); */
+  background-color: #333;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+.title {
+  color: #fff;
+}
+.flag {
+  width: 250px;
+  height: 170px;
+  border: 2px solid #fff;
+  display: inline-block;
+}
+.flag--first {
+  background-image: radial-gradient(100px, red 50%, white 50%);
+}
+.flag--second {
+  background-image: radial-gradient(
+    100px at 100px center,
+    yellow 50%,
+    lightblue 50%
+  );
+}
+.flag--third {
+  background-image: radial-gradient(160px, white 20%, transparent 20%),
+    linear-gradient(red 30%, blue 30% 70%, red 70%);
+}
+.rainbow {
+  width: 650px;
+  height: 300px;
+  border: 2px solid #fff;
+  background-image: radial-gradient(
+    circle at bottom center,
+    transparent 50px,
+    red 50px 80px,
+    orange 80px 110px,
+    yellow 110px 140px,
+    green 140px 170px,
+    blue 170px 200px,
+    purple 200px 230px,
+    violet 230px 260px,
+    transparent 260px
+  );
+}
